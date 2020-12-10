@@ -79,4 +79,7 @@ text
 | 10| 9 | 9 | 
 | MÉDIA| 9 | 9,5 | 
 
-_comentarios_
+Analisando a execução dos dois algorítimos, podemos perceber que o fifo apresenta uma constância no page fault, enquanto o random varia entre 7 a 10 page fault.
+Foram executadas 10 vezes os códigos tendo como entrada o arquivo anomaly.dat. Por não possuir uma variedade maior de entradas, o resultado não foi tão discrepante entre a média de page fault do algorítmo proposto pelo professor e o desenvolvido pelos autores.
+
+Pelas analies no ambiente de maquina virtual Azure, com sistema operacional ubuntu, pudemos identificar que o fifo foi ligeiramente melhor que o random. 
