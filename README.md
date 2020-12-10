@@ -2,7 +2,7 @@
 
 Projeto desenvolvido para a disciplina de Sistemas Operacionais, do curso de Sistemas de Informação da Universidade Federal de Viçosa - Campus Rio Paranaíba.
 - Marcos Aurélio Duarte Souza | 5165
-- Matheus Medeiros Santana | xxxx
+- Matheus Medeiros Santana | 5188
 
 [:link: Link do respositírio](https://github.com/matheus6d/gerenciador-memoria)
 
