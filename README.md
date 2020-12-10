@@ -22,4 +22,55 @@ Em [FUNCAO] substitua por:
 - random: caso queira utilizar a função fornecida pelo professor;
 - fifo: para utilizar a função implementada pelos autores do projeto.
 
+![alt text](https://raw.githubusercontent.com/matheus6d/gerenciador-memoria/main/imagem/exemplo1.png?token=AMG4VYAJ5F4VAINA33AXEO272GEHG)
+
+# Função FIFO implementada pelos autores
+
+```
+int fifo(int8_t** page_table, int num_pages, int prev_page,int fifo_frm, int num_frames, int clock) {
+         
+         int i;
+
+		 do {
+		 	
+		 	if(page_table[i][PT_FRAMEID] == 0){
+         		return i;
+			 }
+			 
+			 ++i;
+			 
+		 } while (i < num_pages);
+		 	 	
+    return -1;
+}
+
+```
+_comentar a função_
+
 ## 2. RANDOM X FIFO
+
+**FIFO - First in First out**
+
+text
+
+**RANDOM**
+
+text
+
+**Tabela de Resultados**
+
+| Execução | Page Fault FIFO | Page Fault RANDOM |
+|:----------|:-------------:|:------:|
+| 1| 9 | 7 |
+| 2| 9 | 8 |
+| 3| 9| 10 |
+| 4| 9 | 8 | 
+| 5| 9 | 10 |
+| 6| 9 | 9 |
+| 7|9 | 8 |
+| 8| 9 | 8 |
+| 9| 9| 9 | 
+| 10| 9 | 9 | 
+| MÉDIA| 9 | 9,5 | 
+
+_comentarios_
