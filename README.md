@@ -47,7 +47,7 @@ int fifo(int8_t** page_table, int num_pages, int prev_page, int fifo_frm, int nu
 }
 
 ```
-_O algoritmo de troca de página FIFO - First in, first out, tem como objetivo a remover das páginas de memória os mais antigos, fazendo com que o primeir que entre seja o primeira que irá sair_
+_O algoritmo de troca de página FIFO - First in, First out, tem como objetivo a removeção das páginas de memória mais antigas, fazendo com que o primeiro que entre seja o primeiro que será removido. Uma caracterisca desse algoritmo o seu baixo custo é a simplicidade em sua implementação, por outro lado é que a página mais antiga pode ser usada frequentemente, causando um aumento de page fault_
 
 ## :mag_right: RANDOM _versus_ FIFO
 
