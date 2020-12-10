@@ -14,7 +14,7 @@ Para executar, digite o comando:
 ```
 $ gcc -Wall vmm.c -o vmm
 ```
-O comando a cima, gera o arquivo para ser executado. Para acessar o programa, utilizaremos o código:
+O comando acima, gera o arquivo para ser executado. Para acessar o programa, utilizaremos o código:
 
 ```
 $ ./vmm [FUNCAO] 10 < anomaly.dat
