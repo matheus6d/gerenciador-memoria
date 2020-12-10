@@ -53,13 +53,13 @@ _O algoritmo de troca de página FIFO - First in, First out, tem como objetivo a
 
 :arrow_right: **FIFO - First in First out**
 
-text
+
 
 ![fifo](imagem/fifo.png)
 
 :arrow_right: **RANDOM**
 
-text
+
 
 ![random](imagem/random.png)
 
