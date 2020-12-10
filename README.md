@@ -1,8 +1,10 @@
-# Gerenciador de Memória
+# :computer: Gerenciador de Memória
 
-Projeto desenvolvido para a disciplina de Sistemas Operacionais, do curso de Sistemas de Informação da Universidade Federal de Viçosa.
+Projeto desenvolvido para a disciplina de Sistemas Operacionais, do curso de Sistemas de Informação da Universidade Federal de Viçosa - Campus Rio Paranaíba.
 - Marcos Aurélio Duarte Souza | 5165
 - Matheus Medeiros Santana | xxxx
+
+[:link: Link do respositírio](https://github.com/matheus6d/gerenciador-memoria)
 
 ## Execução do Algorítimo
 
@@ -24,7 +26,7 @@ Em [FUNCAO] substitua por:
 
 ![exemplo1](imagem/exemplo1.png)
 
-## Função FIFO implementada pelos autores
+## :memo: Função FIFO implementada pelos autores
 
 ```
 int fifo(int8_t** page_table, int num_pages, int prev_page,int fifo_frm, int num_frames, int clock) {
@@ -49,13 +51,13 @@ _comentar a função_
 
 ## RANDOM _versus_ FIFO
 
-**FIFO - First in First out**
+:arrow_right: **FIFO - First in First out**
 
 text
 
 ![fifo](imagem/fifo.png)
 
-**RANDOM**
+:arrow_right: **RANDOM**
 
 text
 
