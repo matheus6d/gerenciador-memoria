@@ -52,11 +52,15 @@ _comentar a função_
 **FIFO - First in First out**
 
 text
+
 ![fifo](imagem/fifo.png)
+
 **RANDOM**
 
 text
+
 ![random](imagem/random.png)
+
 **Tabela de Resultados**
 
 | Execução | Page Fault FIFO | Page Fault RANDOM |
