@@ -4,7 +4,7 @@ Projeto desenvolvido para a disciplina de Sistemas Operacionais, do curso de Sis
 - Marcos Aurélio Duarte Souza | 5165
 - Matheus Medeiros Santana | xxxx
 
-## 1. Execução do Algorítimo
+## Execução do Algorítimo
 
 Existem dois arquivos importantes para execução do código: "vmm.c" e "anomaly.dat".
 Para executar, digite o comando: 
@@ -24,7 +24,7 @@ Em [FUNCAO] substitua por:
 
 ![exemplo1](imagem/exemplo1.png)
 
-# Função FIFO implementada pelos autores
+## Função FIFO implementada pelos autores
 
 ```
 int fifo(int8_t** page_table, int num_pages, int prev_page,int fifo_frm, int num_frames, int clock) {
@@ -47,16 +47,16 @@ int fifo(int8_t** page_table, int num_pages, int prev_page,int fifo_frm, int num
 ```
 _comentar a função_
 
-## 2. RANDOM X FIFO
+## RANDOM _versus_ FIFO
 
 **FIFO - First in First out**
 
 text
-
+![fifo](imagem/fifo.png)
 **RANDOM**
 
 text
-
+![random](imagem/random.png)
 **Tabela de Resultados**
 
 | Execução | Page Fault FIFO | Page Fault RANDOM |
