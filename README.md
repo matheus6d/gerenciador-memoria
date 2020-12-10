@@ -49,7 +49,7 @@ int fifo(int8_t** page_table, int num_pages, int prev_page,int fifo_frm, int num
 ```
 _comentar a função_
 
-## RANDOM _versus_ FIFO
+## :mag_right: RANDOM _versus_ FIFO
 
 :arrow_right: **FIFO - First in First out**
 
@@ -63,7 +63,7 @@ text
 
 ![random](imagem/random.png)
 
-**Tabela de Resultados**
+### :page_facing_up: Tabela de Resultados
 
 | Execução | Page Fault FIFO | Page Fault RANDOM |
 |:----------|:-------------:|:------:|
