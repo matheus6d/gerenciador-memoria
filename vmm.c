@@ -42,17 +42,17 @@ typedef struct {
 int fifo(int8_t** page_table, int num_pages, int prev_page,
          int fifo_frm, int num_frames, int clock) {
          
-         int i;
+         int i; //Incrementador 
 
 		 do {
-		 	
+		 	//Se o endereço físico é o mais velho para ser retornado
 		 	if(page_table[i][PT_FRAMEID] == 0){
          		return i;
 			 }
 			 
-			 ++i;
+			 ++i; //Incrementa para o próximo
 			 
-		 } while (i < num_pages);
+		 } while (i < num_pages); //Roda até encontrar a página vitima
 		 	 	
     return -1;
 }
