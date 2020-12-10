@@ -4,7 +4,8 @@ Projeto desenvolvido para a disciplina de Sistemas Operacionais, do curso de Sis
 - Marcos Aurélio Duarte Souza | 5165
 - Matheus Medeiros Santana | 5188
 
-[:link: Link do respositírio](https://github.com/matheus6d/gerenciador-memoria)
+**[:link: Link do respositírio](https://github.com/matheus6d/gerenciador-memoria)**
+**[:link: Link do relatório em PDF](https://github.com/matheus6d/gerenciador-memoria/blob/main/relatorio.pdf)**
 
 ## :arrow_forward: Execução do Algorítimo
 
