@@ -6,7 +6,7 @@ Projeto desenvolvido para a disciplina de Sistemas Operacionais, do curso de Sis
 
 [:link: Link do respositírio](https://github.com/matheus6d/gerenciador-memoria)
 
-## Execução do Algorítimo
+## :arrow_forward: Execução do Algorítimo
 
 Existem dois arquivos importantes para execução do código: "vmm.c" e "anomaly.dat".
 Para executar, digite o comando: 
