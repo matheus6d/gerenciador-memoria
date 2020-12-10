@@ -22,7 +22,7 @@ Em [FUNCAO] substitua por:
 - random: caso queira utilizar a função fornecida pelo professor;
 - fifo: para utilizar a função implementada pelos autores do projeto.
 
-![alt text](https://raw.githubusercontent.com/matheus6d/gerenciador-memoria/main/imagem/exemplo1.png?token=AMG4VYAJ5F4VAINA33AXEO272GEHG)
+![exemplo1](imagem/exemplo1.png)
 
 # Função FIFO implementada pelos autores
 
